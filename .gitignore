@@ -1,0 +1,60 @@
+# Dependências
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Arquivos de ambiente (CRÍTICO - nunca commitar!)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Build / Compilação
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Cache do TypeScript
+*.tsbuildinfo
+.eslintcache
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.tmp
+*.temp
+.cache/
+
+# Testes
+coverage/
+.nyc_output/
+
+# Sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Arquivos específicos do projeto (se houver)
+# list-models.js (se você criou o arquivo de teste)
